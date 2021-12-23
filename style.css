@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+}
+
+.header,
+.main,
+.footer {
+    margin: 10px 0px 20px;
+}
+.header_title {
+    font-size: 3em;
+    text-align: center;
+}
+
+.todo_list {
+    padding: 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo_list_elem {
+    display: flex;
+    margin: 0px auto 10px;
+    padding: 10px;
+    min-width: 50%;
+    justify-content: space-between;
+    border-bottom: solid rgb(230, 230, 230);
+}
+
+.todo_list_elem > div {
+    margin: 0px 10px;
+}
+
+.todo_list_elem_done {
+    background-color: rgb(223, 223, 223);
+}
+
+.todo_list_elem_title {
+}
+.todo_list_elem_time {
+}
+.todo_list_elem_btn {
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    background: rgb(231, 231, 231);
+}
+
+.todo_list_empty_elem {
+}
+
+.todo_list_empty_elem_title {
+    font-size: 2em;
+    margin: 0px auto;
+}
+
+.add_input {
+    display: flex;
+    justify-content: center;
+}
+
+.add_input > * {
+    margin: 0px 10px;
+}
+
+.add_input_text {
+    height: 30px;
+    width: 200px;
+}
+
+.add_input_btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #4676d7;
+    color: #fff;
+}
+
+.btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+}
+
+.error_input {
+    border-color: red;
+}
+
+.footer_text {
+    padding-bottom: 10px;
+    font: 1em monospace;
+    text-align: center;
+}
+
+.footer_text_name {
+    color: rgb(160, 40, 40);
+}
